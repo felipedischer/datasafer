@@ -1,0 +1,51 @@
+[
+	{
+		"nome":"Arquivos",
+		"descricao":null,
+		"inicio":"24/11/2016 00:10:59",
+		"intervalo":241253,
+		"pasta":"C:\\arquivos",
+		"ultima_operacao":
+			{
+				"data":"09/11/2017 00:10:59",
+				"status":"FALHA",
+				"tamanho":8482922,
+				"nome_backup":"Arquivos"
+			},
+		"status_operacoes":
+			{
+				"EXCLUIDO":1,
+				"SUCESSO":1,
+				"EXECUTANDO":1,
+				"AGENDADO":1,
+				"FALHA":1
+			},
+		
+		"armazenamento_ocupado":5045758,
+		"nome_estacao":"Desktop_Casa"
+	},
+
+	{
+		"nome":"Planilhas importantes",
+		"descricao":null,
+		"inicio":"27/12/2016 00:10:59",
+		"intervalo":423309,
+		"pasta":"C:\\planilhas_importantes",
+		"ultima_operacao":
+			{
+				"data":"21/10/2017 00:10:59",
+				"status":"FALHA","tamanho":9195315,
+				"nome_backup":"Planilhas importantes"
+			},
+			"status_operacoes":
+				{
+					"EXCLUIDO":1,
+					"SUCESSO":1,
+					"EXECUTANDO":1,
+					"AGENDADO":1,"FALHA":1
+				},
+			"armazenamento_ocupado":2765312,
+			"nome_estacao":"Desktop_Casa"
+		},
+
+		{"nome":"Apresentações","descricao":null,"inicio":"06/01/2017 00:10:59","intervalo":728748,"pasta":"C:\\apresentações","ultima_operacao":{"data":"30/08/2017 01:10:59","status":"FALHA","tamanho":7339715,"nome_backup":"Apresentações"},"status_operacoes":{"EXCLUIDO":1,"SUCESSO":1,"EXECUTANDO":1,"AGENDADO":1,"FALHA":1},"armazenamento_ocupado":2188960,"nome_estacao":"Desktop_Casa"},{"nome":"DB","descricao":null,"inicio":"13/01/2017 00:11:00","intervalo":961040,"pasta":"C:\\db","ultima_operacao":{"data":"07/11/2017 00:11:00","status":"EXECUTANDO","tamanho":1674804,"nome_backup":"DB"},"status_operacoes":{"EXCLUIDO":1,"SUCESSO":1,"EXECUTANDO":1,"AGENDADO":1,"FALHA":1},"armazenamento_ocupado":2927957,"nome_estacao":"Desktop_Casa"},{"nome":"Software","descricao":null,"inicio":"17/01/2017 00:11:00","intervalo":573403,"pasta":"C:\\software","ultima_operacao":{"data":"19/10/2017 00:11:00","status":"SUCESSO","tamanho":3569376,"nome_backup":"Software"},"status_operacoes":{"EXCLUIDO":1,"SUCESSO":1,"EXECUTANDO":1,"AGENDADO":1,"FALHA":1},"armazenamento_ocupado":3569376,"nome_estacao":"Desktop_Casa"},{"nome":"Midia","descricao":null,"inicio":"30/12/2016 00:11:00","intervalo":738764,"pasta":"C:\\midia","ultima_operacao":{"data":"08/11/2017 00:11:00","status":"FALHA","tamanho":1793752,"nome_backup":"Midia"},"status_operacoes":{"EXCLUIDO":1,"SUCESSO":1,"EXECUTANDO":1,"AGENDADO":1,"FALHA":1},"armazenamento_ocupado":5632573,"nome_estacao":"Desktop_Casa"},{"nome":"Meus videos","descricao":null,"inicio":"13/01/2017 00:11:00","intervalo":632388,"pasta":"C:\\meus_videos","ultima_operacao":{"data":"01/10/2017 01:11:00","status":"AGENDADO","tamanho":1236958,"nome_backup":"Meus videos"},"status_operacoes":{"EXCLUIDO":0,"SUCESSO":1,"EXECUTANDO":0,"AGENDADO":1,"FALHA":1},"armazenamento_ocupado":807441,"nome_estacao":"Desktop_Casa"}]
