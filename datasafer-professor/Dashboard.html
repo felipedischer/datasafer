@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!-- http://www.cssmatic.com/box-shadow -->
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
+<!-- <link rel="stylesheet" type="text/css" href="./css/estilo.css"> -->
+
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+ <link href="css/main.css" rel="stylesheet">
+    <link href="css/font-style.css" rel="stylesheet">
+    <link href="css/flexslider.css" rel="stylesheet">
+
+
+<!--Largura (width) e Altura (height) -->
+
+  <title>DataSafer</title>
+
+<style>
+
+    .my{
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.30);
+  }
+  #chart_div {
+    margin: auto; 
+    width: 550px; 
+    height: 200px;
+  }
+
+</style>
+
+</head>
+<body>
+
+<div class="container my" ><br>
+    
+
+    <div class="row" >
+    
+        <div class="col-md-3">
+            
+           <div class="my"><br>              
+                <h5 class="text-center">Perfil Usuário</h5>              
+                <div class="thumbnail">
+                    <img src="images/face80x80.jpg" alt="Jubileu Newman" class="img-circle">
+                </div><!-- /thumbnail -->
+                <h2 class="text-center">Jubileu Joselito</h2>
+                <h3 class="text-center">Brasil, São Paulo</h3>
+                <br><br>
+                <!--
+                <div class="info-user">
+                    <span aria-hidden="true" class="li_user fs1"></span>
+                    <span aria-hidden="true" class="li_settings fs1"></span>
+                    <span aria-hidden="true" class="li_mail fs1"></span>
+                    <span aria-hidden="true" class="li_key fs1"></span>
+                </div> -->
+            </div>
+        </div><!-- fim da primeira coluna -->
+    
+
+
+        <div class="col-md-6">
+                
+          <!-- API DO GOOGLE -->      
+            <div class="my"><br>             
+                <h5 class="text-center">Status Backup</h5> 
+                   
+                  
+                  <div id="chart_div"></div>
+                     
+
+                </div>
+        </div>
+
+
+      <!--
+        <div class="col-md-3">
+            
+            <div class="my"><br>             
+                <h5 class="text-center">Espaço em Disco</h5>
+                <div id="space"></div>
+                <div id="piechart_3d" style="width: 100px; height: 40px;"></div>
+                
+            </div>
+        </div>
+
+      -->
+
+
+        <div class="col-md-3">
+            
+        <div class="my"><br>              
+                <h5 class="text-center">Horário Servidor</h5>
+                    <div class="clockcenter">
+                        <digiclock></digiclock>
+                    </div>
+            </div><br>
+
+        <div class="my"><br>              
+                <h5 class="text-center">Status Servidor</h5>
+                <div class="cont">
+                    <p><img src="images/up.png" alt=""> <bold>Up</bold> | 356ms.</p>
+                </div>
+            </div>
+
+
+        </div><!--fim da culuna-->
+
+    </div> <!-- fim da primeira row -->
+      <br>
+        
+
+    
+    <div class="row">
+        
+      <div class="col-md-4" id="templateEstacoes">
+        <img src="./images/loading.gif" alt="carregando" width="50" height="50">
+      </div><!-- fim da coluna -->
+      
+
+  
+
+      <div class="col-md-8">                      
+                 
+                <table class="table table-responsive table-striped table-hover my">
+                  <thead>
+                  <tr>                    
+                      <th colspan="4" class="text-center">Especificações Máquina</th>                      
+                    </tr>
+
+                    <tr><!-- Tr linha-->
+                      <th>Nome</th><!-- TH célula de cabeçalho-->
+                      <th>Tamanho</th>
+                      <th>Data</th>                      
+                      <th>Status</th>                      
+                    </tr>
+                  </thead>
+                <tbody id="especificacoesMaquina">
+                
+                </tbody>                 
+              </table><!-- fim da segunda tabela -->
+              </div><!--fim da coluna-->
+      </div><!-- fim da row --> 
+  
+
+
+    <div class="row">
+        
+      <div class="col-md-12">
+                <!-- table-responsive -->            
+                <table class="table table-responsive table-striped table-hover my">
+                  <thead> 
+                    <tr>                                     
+                      <th colspan="3" class="text-center">Detalhes do Backup</th>                  
+                    </tr>
+
+                    <tr>
+                      <th>Caminho</th>
+                      <th>Tipo</th>
+                      <th>Tamanho</th>                      
+                    </tr>
+                  </thead>
+                <tbody>
+                  <tr>
+                    <td>E:\SENAI\Prototipos_DataSafer</td>
+                    <td>Pasta</td>
+                    <td>100MB</td>                      
+                  </tr>
+                  <tr>
+                    <td>E:\SENAI\Prototipos_DataSafer</td>
+                    <td>Pasta</td>
+                    <td>100MB</td>                      
+                  </tr>
+                  <tr>
+                    <td>E:\SENAI\Prototipos_DataSafer</td>
+                    <td>Pasta</td>
+                    <td>100MB</td>                      
+                  </tr>
+                  <tr>
+                    <td>E:\SENAI\Prototipos_DataSafer</td>
+                    <td>Pasta</td>
+                    <td>100MB</td>                      
+                  </tr>
+                  <tr>
+                    <td>E:\SENAI\Prototipos_DataSafer</td>
+                    <td>Pasta</td>
+                    <td>100MB</td>                      
+                  </tr>
+                  <tr>
+                    <td>E:\SENAI\Prototipos_DataSafer</td>
+                    <td>Pasta</td>
+                    <td>100MB</td>                      
+                  </tr>
+                </tbody>
+              </table>
+            </div> <!-- fim da coluna -->          
+        <!-- fim da terceira row -->
+      </div> <!--ROW -->
+</div><!-- fim conteiner-->
+
+  <script type="text/javascript" src="./js/jquery-3.1.1.min.js"></script>
+  <script src="./js/jscript.js"></script>
+  <script type="text/javascript" src="js/admin.js"></script>
+
+
+
+
+ <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+ 
+// Load the Visualization API and the corechart package.
+      google.charts.load('current', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.charts.setOnLoadCallback(drawChart);
+
+
+
+
+     
+       function drawChart() {
+
+        // Create the data table.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+        data.addColumn('number', 'Slices');
+        data.addRows([
+          ['Sucesso', 3],
+          ['Executando', 3],
+          ['Falha', 3],
+          ['Agendado', 4],
+          ['Excluido', 5]
+        ]);
+
+        // Set chart options
+        var options = {'width':550,'height':200
+      };
+
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      }
+    </script>
+
+
+
+
+</head>
+
+
+
+</body>
+</html>
+
